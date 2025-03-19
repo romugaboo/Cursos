@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+        <form action="" method="get">
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" placeholder="Informe o seu nome..." name="nome">
+                <input type="text" id="texto" value="Lari">
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <input type="number">
+            <input type="file">
+            <input type="url">
+            <input type="color">
+            <input type="range" value="100" max="200" min="100">
+            <input type="text">
+            <input type="checkbox" checked>
+            <input type="radio">
+            <input type="reset" value="Limpar">
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma da opções</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="tranferencia">Tranferência</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
